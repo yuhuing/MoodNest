@@ -19,6 +19,9 @@ A Flutter app that helps young people deal with cyberbullying and look after the
 <p align="center">
   <img src="screenshots/home.jpg" width="200" alt="Home" />
   <img src="screenshots/report.jpg" width="200" alt="Report" />
+</p>
+
+<p align="center">
   <img src="screenshots/education.jpg" width="200" alt="Education" />
   <img src="screenshots/chat.jpg" width="200" alt="AI Chat" />
   <img src="screenshots/diary.jpg" width="200" alt="Diary" />
