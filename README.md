@@ -6,7 +6,6 @@
 
 A Flutter app that helps young people deal with cyberbullying and look after their mental wellness: talk to an AI counselor, call a hotline, report incidents, learn, and track your mood, all in one calm place.
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Try_it_now-4A9FE8?style=for-the-badge)](https://yuhuing.github.io/MoodNest/)
 ![Flutter](https://img.shields.io/badge/Flutter-3.29-02569B?style=for-the-badge&logo=flutter)
 ![Gemini](https://img.shields.io/badge/AI-Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 
@@ -18,10 +17,11 @@ A Flutter app that helps young people deal with cyberbullying and look after the
 
 <!-- Put your phone screenshots in a "screenshots" folder and use these file names -->
 <p align="center">
-  <img src="screenshots/home.png" width="200" alt="Home" />
-  <img src="screenshots/chat.png" width="200" alt="AI Chat" />
-  <img src="screenshots/diary.png" width="200" alt="Diary" />
-  <img src="screenshots/report.png" width="200" alt="Report" />
+  <img src="screenshots/home.jpg" width="200" alt="Home" />
+  <img src="screenshots/report.jpg" width="200" alt="Report" />
+  <img src="screenshots/education.jpg" width="200" alt="Education" />
+  <img src="screenshots/chat.jpg" width="200" alt="AI Chat" />
+  <img src="screenshots/diary.jpg" width="200" alt="Diary" />
 </p>
 
 ## Features
