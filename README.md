@@ -14,7 +14,7 @@ A Flutter app that helps young people deal with cyberbullying and look after the
 
 ---
 
-## 📱 Screenshots
+## Screenshots
 
 <!-- Put your phone screenshots in a "screenshots" folder and use these file names -->
 <p align="center">
@@ -24,7 +24,7 @@ A Flutter app that helps young people deal with cyberbullying and look after the
   <img src="screenshots/report.png" width="200" alt="Report" />
 </p>
 
-## ✨ Features
+## Features
 
 | | Feature | What it does |
 |---|---|---|
@@ -34,7 +34,7 @@ A Flutter app that helps young people deal with cyberbullying and look after the
 | 🛡️ | **Report** | Record incidents safely, with screenshots as evidence |
 | 📔 | **Diary** | Track your mood on a calendar and see how you're doing |
 
-## 🚀 Getting started
+## Getting started
 
 ```bash
 git clone https://github.com/yuhuing/MoodNest.git
@@ -50,25 +50,18 @@ Then plug in your phone (or start an emulator) and run:
 flutter run
 ```
 
-## 🧰 Built with
+## Built with
 
 [Flutter](https://flutter.dev) · [Gemini API](https://pub.dev/packages/google_generative_ai) · [table_calendar](https://pub.dev/packages/table_calendar) · [image_picker](https://pub.dev/packages/image_picker) · [flutter_phone_direct_caller](https://pub.dev/packages/flutter_phone_direct_caller)
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 - **Red errors everywhere after cloning?** Run `flutter pub get`, then reload VS Code.
 - **AI chat not replying?** Check `lib/services/api_key.dart` exists with a valid key.
 - **Gradle build error?** Don't accept "Upgrade Gradle" prompts; this project uses Gradle 8.14.3.
 
-## 👩‍💻 Team
+## Team
 
 - **Ng Yu Hui** ([@yuhuing](https://github.com/yuhuing))
 - **Chai Shun Ying** ([@ChaiShunYing](https://github.com/ChaiShunYing))
 
-<div align="center">
-
----
-
-Made with 💙 to make the internet a kinder place.
-
-</div>
