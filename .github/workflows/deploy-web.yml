@@ -1,0 +1,49 @@
+# Builds the Flutter web app and publishes it to GitHub Pages
+# every time you push to main. Live at: https://yuhuing.github.io/MoodNest/
+name: Deploy website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.29.3
+          channel: stable
+
+      # The real key file is not on GitHub, so create it from a repo secret.
+      - name: Create API key file
+        run: echo "const String geminiApiKey = '${{ secrets.GEMINI_API_KEY }}';" > lib/services/api_key.dart
+
+      - run: flutter pub get
+      - run: flutter build web --release --base-href /MoodNest/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
