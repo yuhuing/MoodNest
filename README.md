@@ -2,7 +2,7 @@
 
 # 🪺 MoodNest
 
-### Your safe space against cyberbullying 💙
+### Your safe space against cyberbullying
 
 A Flutter app that helps young people deal with cyberbullying and look after their mental wellness: talk to an AI counselor, call a hotline, report incidents, learn, and track your mood, all in one calm place.
 
