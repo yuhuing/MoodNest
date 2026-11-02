@@ -66,5 +66,5 @@ flutter run
 ## Team
 
 - **Ng Yu Hui** ([@yuhuing](https://github.com/yuhuing))
-- **Chai Shun Ying** ([@ChaiShunYing](https://github.com/ChaiShunYin))
+- **Chai Shun Ying** ([@ChaiShunYing](https://github.com/ChaiShunYing))
 
